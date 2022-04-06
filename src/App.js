@@ -2,12 +2,7 @@
  import WebPageRouter from './webPageRouter/WebPageRouter';
  
  const  App=()=>{
+    return (<WebPageRouter/>);
+ }
 
-  return (
-
-     <WebPageRouter/>
-
-  );
-}
-
-export default App;
+ export default App;
